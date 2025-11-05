@@ -4,7 +4,7 @@ collection: publications
 type: "Paper"
 permalink: /publication/2026-industropose
 excerpt: 'This paper is under review for ICRA 2026.'
-# date: 2026-01-01
+date: 2026-01-01
 venue: 'Under Review, ICRA: IEEE International Conference on Robotics and Automation'
 citation: 'S. Hazan, N. Curtis, A. Agafonov, Z. Feldman, and D. Di Castro, "IndustRoPose: Zero Shot Real-Time 6D Pose Tracking for Industrial Robotic Manipulation", Under Review, ICRA: IEEE International Conference on Robotics and Automation, 2026.'
 ---
