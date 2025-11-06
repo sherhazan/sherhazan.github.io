@@ -9,7 +9,7 @@ author_profile: true
 
 {% assign items_by_type = site.publications | group_by: "type" %}
 
-{% assign type_order = "Paper|Patent|Demo|Poster" | split: "|" %}
+{% assign type_order = "Paper|Patent|Posters & Presentations|Thesis" | split: "|" %}
 
 {% for type_name in type_order %}
   {% for type_group in items_by_type %}
@@ -19,19 +19,16 @@ author_profile: true
         <h2 id="papers">Papers</h2>
       {% elsif type_name == "Patent" %}
         <h2 id="patents">Patents</h2>
-      {% elsif type_name == "Poster" %}
+      {% elsif type_name == "Posters & Presentations" %}
         <h2 id="posters">Posters & Presentations</h2>
-      {% elsif type_name == "Demo" %}
-         {% endif %}
+      {% elsif type_name == "Thesis" %}
+        <h2 id="thesis">Thesis</h2>
+      {% endif %}
 
       {% assign items_sorted_by_date = type_group.items | sort: "date" | reverse %}
 
       {% for post in items_sorted_by_date %}
-        {% if type_name == "Poster" or type_name == "Demo" %}
-           {% include archive-single.html %}
-        {% elsif type_name != "Poster" and type_name != "Demo" %}
-           {% include archive-single.html %}
-        {% endif %}
+        {% include archive-single.html %}
       {% endfor %}
 
     {% endif %}

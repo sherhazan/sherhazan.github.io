@@ -70,16 +70,18 @@ Publications
 ======
 * **Papers**
   * [IndustRoPose: Zero Shot Real-Time 6D Pose Tracking for Industrial Robotic Manipulation](/publication/2026-industropose)
-    * *Under Review, ICRA: IEEE International Conference on Robotics and Automation, 2026.*
+    *Under Review, ICRA: IEEE International Conference on Robotics and Automation, 2026.*
 
 * **Patents**
   * [IndustRoPose: Zero Shot Real-Time 6D Pose Tracking for Industrial Robotic Manipulation](/publication/2025-patent-industropose)
-    * *Patent disclosure under review with Bosch, 2025.*
+    *Patent disclosure under review with Bosch, 2025.*
+
   * [Al-Derived Robotic Screwing Using an Affordable Screwdriver](/publication/2025-patent-screwing)
-    * *Patent disclosure under review with Bosch, 2025.*
+    *Patent disclosure under review with Bosch, 2025.*
 
 * **Posters & Presentations**
   * [AI4IA: AI for Industrial Assembly](/publication/2025-imvc-demo)
-    * *Demo presentation, IMVC: Israel Machine Vision Conference, 2025.*
+    *Demo presentation, IMVC: Israel Machine Vision Conference, 2025.*
+
   * [Estimation of relative position between objects for robotic insertion of LDOs using classification learning methods](/publication/2024-imvc-poster)
-    * *Poster presentation, IMVC: Israel Machine Vision Conference, 2024.*
+    *Poster presentation, IMVC: Israel Machine Vision Conference, 2024.*

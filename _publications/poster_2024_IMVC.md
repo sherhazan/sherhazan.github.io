@@ -1,7 +1,7 @@
 ---
 title: "Estimation of relative position between objects for robotic insertion of LDOs using classification learning methods"
 collection: publications
-type: "Poster"
+type: "Posters & Presentations"
 permalink: /publication/2024-imvc-poster
 excerpt: 'Poster presentation at IMVC: Israel Machine Vision Conference, 2024.'
 date: 2024-04-08

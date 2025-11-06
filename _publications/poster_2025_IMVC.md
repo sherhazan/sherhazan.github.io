@@ -1,7 +1,7 @@
 ---
 title: "AI4IA: AI for Industrial Assembly"
 collection: publications
-type: "Demo"
+type: "Posters & Presentations"
 permalink: /publication/2025-imvc-demo
 excerpt: 'Demo presentation at IMVC: Israel Machine Vision Conference, 2025.'
 date: 2025-04-01
