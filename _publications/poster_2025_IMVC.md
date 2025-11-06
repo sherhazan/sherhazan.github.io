@@ -15,4 +15,4 @@ Our team at Bosch Corporate Research develops end-to-end solutions for robotic m
 
 ## Poster Preview
 
-![IMVC 2024 Poster Preview](/images/Poster_IMVC_2025.jpg) 
+![IMVC 2024 Poster Preview](/images/Poster_IMVC_2025.png) 
