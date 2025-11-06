@@ -12,35 +12,6 @@ citation: Hazan, Sher, Anath Fischer, and Technion - Israel Institute of Technol
 
 ## Abstract
 
-This work proposes a robust method for evaluating the relative position between both rigid and
-non-rigid objects in real-time assembly tasks using computer vision and learning methods.
-The proposed approach fuses depth data with RGB images using a classification neural network (CNN) architecture. Several CNNs were tested and compared, including early, late, and
-parallel RGB-D fusion architectures.
-
-In order to use classification CNN on a continuous problem, the scene space was divided
-into sub-areas as classes. The classification resulted in the prediction of probabilities of each
-class. Subsequently, these probabilities were combined using a linear interpolation technique,
-resulting in an accurate evaluation of the relative position between the objects.
-
-For the validation process of the proposed method, three Peg-In-Hole tasks were defined,
-varying in their complexity. The tasks included: (1) a classic PID with rigid objects; (2) wiring
-a 1 mm thick non-rigid wire to a rigid connector; and (3) wiring a non-rigid medical pipe to a
-non-rigid connector.
-
-An RGB-D realistic database was created for each task’s CNN. The scenes were captured
-using a 3D camera in a real robotic cell at the Technion. Then, pre-processing and augmentation
-techniques were applied to the data. Finally, the CNNs were trained separately using the same
-setup and hyper-parameters to ensure comparable results.
-
-The method was evaluated by embedding and testing it in the robotic insertion process based
-on the following iterative stages:
-• Predicting the position probabilities.
-• Calculating the relative position between the peg and the hole.
-• Correcting the peg position.
-
-Once the peg is aligned with the hole, the insertion process is performed. Furthermore, the
-real-world applicability and generalization of the method were validated by embedding it in an
-industrial-grade robotic cell without additional training.
-
-The feasibility of the proposed method was demonstrated in several tasks, showing an automatic process with high performance. Consequently, it fits well into the industrial environment
-for tasks involving the insertion of linear deformable objects (LDO) within a robotic cell.
+Robotic integration in various industrial fields has long been a desirable goal, aiming to enhance production efficiency and reduce costs. However, one of the most prevalent challenges faced in the integration of robots into production lines is effectively handling different kinds of uncertainty, especially in assembly tasks. Such tasks often demand high precision for manual robot programming, particularly when inserting one part into another mechanically. To address this challenge and make production more cost-effective, robots should possess the ability to handle uncertainties in the assembly set-up. While existing methods have been successful to reduce uncertainty during assembly of rigid bodies by Integrating 3D models of objects. they fall short when dealing with non-rigid bodies. Non-rigid objects not only lack a readily available 3D model but also introduce additional uncertainty due to their flexible nature.
+This work proposes a robust method for evaluating the relative position between both rigid and non-rigid objects in real-time assembly tasks. The proposed solution involves the development and demonstration of approach that fuses depth information with color information using different classification neural network architectures. In order to use classification architectures, we divide the assembly space into classes, which allowing the prediction of probabilities for belonging to each class. These probabilities are then combined using a linear interpolation technique, resulting in the accurate determination of the relative position between objects.
+To validate our method, we defined three Peg-In-Hole tasks, varying in complexity. The tasks included a classic PID with rigid objects, wiring a 1 mm thick wire to a rigid connector, and the main challenge of wiring a non-rigid medical pipe to a non-rigid connector. The effectiveness of the method was evaluated testing each task in a robotic cell at the Technion. Furthermore, the real-world applicability and generalization of the method were validated by embedding it in an industrial-grade robotic cell.

@@ -46,9 +46,6 @@ Work experience
   * Troubleshooting and providing solutions.
   * Production planning with CNC, tin bending, laser cutting, and 3D printing.
 
-* **Mandatory Service, IDF Air Force**, 2012-2015
-  * Full-service, Active reserve duty
-  
 Skills
 ======
 * **Professional Knowledge**
