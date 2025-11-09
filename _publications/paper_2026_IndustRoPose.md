@@ -3,6 +3,7 @@ title: "IndustRoPose: Zero Shot Real-Time 6D Pose Tracking for Industrial Roboti
 collection: publications
 type: "Paper"
 permalink: /publication/2026-industropose
+redirect_to: "https://sherhazan.github.io/IndustRoPose/"
 excerpt: 'This paper is under review for ICRA 2026.'
 date: 2026-06-01
 citation: 'S. Hazan, N. Curtis, A. Agafonov, Z. Feldman, and D. Di Castro, "IndustRoPose: Zero Shot Real-Time 6D Pose Tracking for Industrial Robotic Manipulation", Under Review, ICRA: IEEE International Conference on Robotics and Automation, 2026.'
