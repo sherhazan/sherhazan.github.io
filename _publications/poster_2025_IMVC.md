@@ -3,6 +3,7 @@ title: "AI4IA: AI for Industrial Assembly"
 collection: publications
 type: "Posters & Presentations"
 permalink: /publication/2025-imvc-demo
+redirect_to: "https://sherhazan.github.io/imvc-2025-demo/"
 excerpt: 'Demo presentation at IMVC: Israel Machine Vision Conference, 2025.'
 date: 2025-04-01
 paperurl: "/files/Poster_IMVC_2025.pdf"
